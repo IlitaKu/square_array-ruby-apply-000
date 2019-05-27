@@ -11,6 +11,7 @@ def square_array(array)
  # puts "#{x}. #{name}"
  # x += 1
 #end
+<<<<<<< HEAD
 new_array = []
 array.each do|number|
 new_array << number **2
@@ -19,4 +20,13 @@ end
  end
  
  
+=======
+array = [1, 2, 3]
+new_array = []
+array.each {|number|
+new_array << number **2}
+ return new_array
+ end
+ 
+>>>>>>> 8055e325ff82c08bb607eeba692ccc45bcffe773
 
